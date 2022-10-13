@@ -15,8 +15,8 @@
     width: 20vw;
     height: 55vh;
     margin: 15vh auto 0 auto;
-    border: 2px solid black;
-    background-image: linear-gradient(45deg, #2E3CEC, #E975E9);
+    border: 3px solid black;
+    background-image: linear-gradient(45deg, #2E3CEC, #E975E9 60%);
 }
 
 #counter h1 {
@@ -34,18 +34,20 @@
 }
 
 body article {
-    width: 13vw;
+    width: 10vw;
     margin: 0 auto;
     display: flex;
 }
 
 body article .left-right__side {
     text-align: center;
+    width: 10vw;
 }
 
 button {
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
     margin-bottom: 2vh;
 }
 
