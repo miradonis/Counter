@@ -1,0 +1,51 @@
+/*============================
+            ASSETS
+============================*/
+
+/*----------GENERAL----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------STYLING----------*/
+#counter {
+    width: 20vw;
+    height: 55vh;
+    margin: 15vh auto 0 auto;
+    border: 2px solid black;
+    background-image: linear-gradient(45deg, #2E3CEC, #E975E9);
+}
+
+#counter h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 5vh 0 5vh 0;
+}
+
+#display {
+    font-size: 2.5rem;
+    text-align: center;
+    height: 3vh;
+    width: 10vw;
+    margin: 0 auto 5vh auto;
+}
+
+body article {
+    width: 13vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+body article .left-right__side {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 2vh;
+}
+
